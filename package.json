@@ -1,0 +1,19 @@
+{
+  "name": "one-pesewa-api",
+  "version": "1.0.0",
+  "description": "This is an API container for the one pesewa project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McAngelo/one-pesewa-api.git"
+  },
+  "author": "Michael kwame Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McAngelo/one-pesewa-api/issues"
+  },
+  "homepage": "https://github.com/McAngelo/one-pesewa-api#readme"
+}
