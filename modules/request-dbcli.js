@@ -1,6 +1,6 @@
 const request = require('request'),
       url = 'http://127.0.0.1:5984',
-      db = 'books',
+      db = 'music',
       method = process.argv[2] || 'GET',
       options = {
           method: method,
