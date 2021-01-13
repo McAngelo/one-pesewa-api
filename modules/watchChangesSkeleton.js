@@ -9,4 +9,14 @@ exports.createWatcher = function(options){
     
     watcher.host = options.host || 'localhost';
     watcher.port = options.port || 5984;
+    watcher.last_seq = options.last_seq || 0;
+    watcher.db = options.db || '_users';
+    
+    watcher.start = function(){
+        // ... feed-specific implementation ..
+    };
+    
+    return watcher;
 };
+
+// start watching CounDB for changes if running as main script
