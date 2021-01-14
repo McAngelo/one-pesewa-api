@@ -19,6 +19,9 @@ exports.createWatcher = function(options){
     return watcher;
 };
 
+/* TODO: work on some minor changes to the feature*/
+
+
 // start watching CounDB for changes if running as main script
 if(!module.parent){
     exports.createWatcher({
