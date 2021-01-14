@@ -20,3 +20,12 @@ exports.createWatcher = function(options){
 };
 
 // start watching CounDB for changes if running as main script
+if(!module.parent){
+    exports.createWatcher({
+        db: process.argv[2],
+        last_seq: process.argv[3]
+    })
+    .on('change', console.log)
+    .on('error', console.error)
+    .start();
+}
